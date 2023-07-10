@@ -9,7 +9,7 @@ async function handleEmails(req, res) {
     res.status(500).send('Error processing emails');
   }
 }
-setInterval(handleEmails, 60000);
+// setInterval(handleEmails, 60000);
 module.exports = {
   handleEmails,
 };
